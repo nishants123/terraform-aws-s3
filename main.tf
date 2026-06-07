@@ -25,7 +25,7 @@ provider "aws" {
 
 resource "random_id" "rand_id" {       #it will create random id and return using terraform output.tf 
                                             # then i am using this id in bucket name for unique bucket name
-  byte_length = 5
+  byte_length = 6
 }
 
 
